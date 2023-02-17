@@ -112,3 +112,25 @@
 ### Code For OutPut
 
        var e = document.querySelector('.mlp-collapse-content .btn-container').innerHTML= new Date();
+
+6. Webiste Name: [Vercel](https://vercel.com/)
+
+### Topics
+
+     querySelector,innerHTMl
+
+### Sample Image
+
+![Sample One](./Pic30.png)
+
+### Tasks
+
+      change the heading “Start with the developer” to “Start with Scratch”
+
+### Output
+
+![Output](./varcel.png)
+
+### Code For OutPut
+
+       var e = document.querySelector('.jsx-499702677 .section-title_title__VEDfK').innerHTML="Start with Scratch";
