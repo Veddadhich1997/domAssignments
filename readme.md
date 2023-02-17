@@ -68,3 +68,25 @@
 
      var e = document.querySelector('.navbar-header .navbar-brand .logo').getAttribute('src');
      console.log(e);
+
+4. Webiste Name: [Philips](https://www.philips.co.in/)
+
+### Topics
+
+     querySelector,style,backgroundcolor
+
+### Sample Image
+
+![Sample One](./Pic34.png)
+
+### Tasks
+
+    change the background colour blue to orange
+
+### Output
+
+![Output](./philips.png)
+
+### Code For OutPut
+
+        var e = document.querySelector('.p-footer .p-grid').style.backgroundColor="orange";
