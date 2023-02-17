@@ -45,3 +45,26 @@
 ### Code For OutPut
 
      var e = document.querySelector('.product-card-content .narrow .item .desc').style.color="red";
+
+3. Webiste Name: [Canon](https://in.canon/)
+
+### Topics
+
+          querySelector,src
+
+### Sample Image
+
+![Sample One](./Pic36.png)
+
+### Tasks
+
+    extract the canon logo
+
+### Output
+
+![Output](./canon.png)
+
+### Code For OutPut
+
+     var e = document.querySelector('.navbar-header .navbar-brand .logo').getAttribute('src');
+     console.log(e);
