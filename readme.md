@@ -20,6 +20,28 @@
 
 ### Code For OutPut
 
-     var e = document.querySelector('.crayons-card .crayons-subtitle-2').innerText="Ved Dadhich";
+     var e = document.querySelector('.crayons-card .crayons-subtitle-2').innerHTML="Ved Dadhich";
 
-     var d = document.querySelector('.crayons-card p').innerText="I like to Code";
+     var d = document.querySelector('.crayons-card p').innerHTML="I like to Code";
+
+2. Webiste Name: [Oppo](https://www.oppo.com/in/)
+
+### Topics
+
+          querySelector,style,color
+
+### Sample Image
+
+![Sample One](./oppo1.png)
+
+### Tasks
+
+      Change the description colour black to orange
+
+### Output
+
+![Output](./oppo.png)
+
+### Code For OutPut
+
+     var e = document.querySelector('.product-card-content .narrow .item .desc').style.color="red";
