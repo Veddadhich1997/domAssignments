@@ -90,3 +90,25 @@
 ### Code For OutPut
 
         var e = document.querySelector('.p-footer .p-grid').style.backgroundColor="orange";
+
+5. Webiste Name: [Sony](https://www.sony.co.in/)
+
+### Topics
+
+    querySelector,innerHTMl
+
+### Sample Image
+
+![Sample One](./Pic33.png)
+
+### Tasks
+
+     change the button text To current Date.
+
+### Output
+
+![Output](./sony.png)
+
+### Code For OutPut
+
+       var e = document.querySelector('.mlp-collapse-content .btn-container').innerHTML= new Date();
