@@ -217,4 +217,30 @@ Target the top description and change “Skills speak louder than words” to �
 
 ### Output
 
-![Output](./Pic23.png)
+![Output](./github.png)
+
+### Code For OutPut
+
+       var e = document.querySelector('.js-repos-container .f4 .btn').style.backgroundColor="blue";
+
+11. Webiste Name: [OnePlus](https://www.oneplus.in/support)
+
+### Topics
+
+     Query Selector, InnerText
+
+### Sample Image
+
+![Sample One](./Pic6.png)
+
+### Tasks
+
+      Change the contact number
+
+### Output
+
+![Output](./oneplus.png)
+
+### Code For OutPut
+
+       var e = document.querySelector('.item--subtitle').innerText="+916366256689";
