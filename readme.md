@@ -156,3 +156,65 @@
 ### Code For OutPut
 
        var e = document.querySelector('#d560822win9b .ps-top .ps-title').style.textAlign="right";
+
+8. Webiste Name: [Asus](https://www.asus.com/in/)
+
+### Topics
+
+      querySelector,style,font-size
+
+### Sample Image
+
+![Sample One](./Pic26.png)
+
+### Tasks
+
+       change the fontsize of “Hot Deals” to 80px
+
+### Output
+
+![Output](./asus.png)
+
+### Code For OutPut
+
+        var e = document.querySelector('.HotDealsAll__Heading__2fIbe').style.fontSize="70px";
+
+9. Webiste Name: [Hackerrank](https://www.hackerrank.com/)
+
+### Topics
+
+       querySelector,innerHtml
+
+### Sample Image
+
+![Sample One](./hackerrank1.png)
+
+### Tasks
+
+Target the top description and change “Skills speak louder than words” to ‘JSBOOTCAMP“.
+
+### Output
+
+![Output](./hackerrank.png)
+
+### Code For OutPut
+
+       var e = document.querySelector('.home22-intro-title').innerText="JSBOOTCAMP";
+
+10. Webiste Name: [Github](https://github.com/)
+
+### Topics
+
+       querySelector,style,background-Color
+
+### Sample Image
+
+![Sample One](./Pic22.png)
+
+### Tasks
+
+     change the background colour of the button to blue.
+
+### Output
+
+![Output](./Pic23.png)
