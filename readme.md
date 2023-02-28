@@ -244,3 +244,236 @@ Target the top description and change “Skills speak louder than words” to �
 ### Code For OutPut
 
        var e = document.querySelector('.item--subtitle').innerText="+916366256689";
+
+12. Webiste Name: [realme](https://www.realme.com/in/)
+
+### Topics
+
+       querySelector,style,background-image
+
+### Sample Image
+
+![Sample One](./Pic20.png)
+
+### Tasks
+
+    change the realme logo to ineuron logo
+
+### Output
+
+![Output](./realme.png)
+
+### Code For OutPut
+
+       var item = document.querySelector(".wrapper .logo .icon").style.backgroundImage="url(https://ineuron.ai/images/ineuron-logo.png)";
+
+13. Webiste Name: [Freecodecamp](https://www.freecodecamp.org/)
+
+### Topics
+
+       querySelector, mouseover, click eventListener,  callback function, style,
+
+### Sample Image
+
+![Sample One](./Pic18.png)
+
+### Tasks
+
+    Target the button and change background colour on mouseover
+
+### Output
+
+![Output](./freecodecamp.png)
+
+### Code For OutPut
+
+       var btn = document.querySelector(".btn-cta-big");
+       var text = document.querySelector(".btn-cta-big .login-btn-text");
+
+       btn.addEventListener("mouseover",function(){text.style.background="red"});
+       btn.addEventListener("mouseout",function(){text.style.background="orange"});
+
+14. Webiste Name: [Code Wars](https://www.codewars.com/)
+
+### Topics
+
+       Change Font Family, Color of Text.
+
+### Sample Image
+
+![Sample One](./Pic16.png)
+
+### Tasks
+
+    Change the font family of the text to monospace and text color to the logo’s background color.
+
+### Output
+
+![Output](./codewars.png)
+
+### Code For Output
+
+       const text = document.querySelector(".display-heading-1");
+       text.style.color = "#b1361e";
+       text.style.fontFamily = "monospace";
+
+15. Webiste Name: [Google](https://www.google.com/)
+
+### Topics
+
+       Remove Elements
+
+### Sample Image
+
+![Sample One](./Pic14.png)
+
+### Tasks
+
+     Remove alternate languages from the home page languages listed
+
+### Output
+
+![Output](./google.png)
+
+### Code For OutPut
+
+       let item = document.querySelectorAll("#SIvCob a");
+       function remove(item) {
+       for (let i = 0; i < item.length; i+=2) {
+       item[i].remove();
+       }
+       }
+       remove(item);
+
+16. Webiste Name: [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+### Topics
+
+       Form, Value, Submit
+
+### Sample Image
+
+![Sample One](./Pic12.png)
+
+### Tasks
+
+     To Search a topic in the MDN Search bar.
+     First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
+
+### Output
+
+![Output](./MDN.png)
+
+### Code For OutPut
+
+       function search(Text) {
+       let input = document.querySelector("#hp-search-input");
+       input.value = Text;
+       let form = document.querySelector("#hp-search-form");
+       form.submit();
+       }
+       search("css selectors");
+
+17. Webiste Name: [Adidas](https://www.adidas.co.in/)
+
+### Topics
+
+    -   Query Selector, Event listeners, Changing Styles
+
+### Sample Image
+
+![Sample One](./Pic10.png)
+
+### Tasks
+
+     Target the search box and on hover change thebackground color to red.
+
+### Output
+
+![Output](./adidas.png)
+
+### Code For OutPut
+
+       document.querySelector("._input_1f3oz_13").addEventListener("mouseover", bgChange );
+       function bgChange() {
+       document.querySelector("._input_1f3oz_13").style.background = "red";
+       }
+       document.querySelector("._input_1f3oz_13").addEventListener("mouseout", bgChange2 );
+       function bgChange2() {
+       document.querySelector("._input_1f3oz_13").style.background = "transparent";
+       }
+
+18. Webiste Name: [Samsung](https://www.samsung.com/in/offer/online/samsung-fest/)
+
+### Topics
+
+       getElementById, createElement, InnerText, append, setAttribute
+
+### Sample Image
+
+![Sample One](./Pic8.png)
+
+### Tasks
+
+     Target the main div of card and change the Button text to Check out
+
+### Output
+
+![Output](./samsung.png)
+
+### Code For OutPut
+
+       document.querySelector(".diwali-deals-product-sale-btn").innerText = "Check out";
+
+19. Webiste Name: [Youtube Support](https://support.google.com/youtube/)
+
+### Topics
+
+    - Get Element By Id, Create Element, Create Text Node, Append Child
+
+### Sample Image
+
+![Sample One](./Pic4.png)
+
+### Tasks
+
+     Add another FAQ 'My New FAQ' to the list
+
+### Output
+
+![Output](./youtube.png)
+
+### Code For OutPut
+
+       var h3 = document.createElement("h3");
+       h3.innerText="My New FAQ";
+       let section = document.createElement("section");
+       section.classList.add("parent");
+       section.appendChild(h3);
+       document.querySelector(".accordion-homepage").appendChild(section);
+
+20. Website Name: [Apple](https://support.apple.com/en-in)
+
+### Task
+
+![Store](./Picture_3.png)
+
+### Fetch all the product name and store in an array
+
+### Output
+
+['iPhone', 'Mac', 'iPad', 'Watch', 'AirPods', 'Music', 'TV']
+
+### Output
+
+![Output](./apple.png)
+
+### Code For OutPut
+
+       const list = document.querySelectorAll(".as-imagegrid-item");
+       const storeValue =  [];
+       list.forEach((item)=>{
+       let a = item.innerText.replace("\nSupport", "");
+       storeValue.push(a);
+       })
+       console.log(storeValue);
